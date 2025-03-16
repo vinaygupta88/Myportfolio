@@ -3,13 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link rel="stylesheet" href="assets/css/styles.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
         <title>Portfolio</title>
     </head>
     <body>
@@ -194,12 +191,13 @@
             
                     <!-- Right Side: Feedback Form (Unchanged) -->
                     <div class="contact-info-container ">
-                        <form action="" class="contact__form">
-                            <h2 style="text-align: center;">Feedback</h2>
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="email" placeholder="Email" class="contact__input">
-                            <textarea name="" cols="0" rows="2" class="contact__input"></textarea>
-                            <input type="button" value="Submit" class="contact__button btn">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+                            <h2 style="text-align: center;">Feedback</h2><hr>
+                            <input type="hidden" name="access_key" value="e660f081-b2bc-4c0f-9021-f69362367823">
+                            <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                            <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                            <textarea name="message" placeholder="Your message" rows="2" class="contact__input" required></textarea>
+                            <button type="submit">Submit</button>
                         </form>
                     </div>
                 </div>
