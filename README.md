@@ -9,7 +9,7 @@
     <li>Experience Section – Work & learning journey</li>
     <li>Contact Section – Get in touch with me</li>
   </ul> <br>
-<h3> 📬 Get In Touch:</h3> <br>
+<h3> 📬 Get In Touch:</h3>
 Want to collaborate or discuss new opportunities? Feel free to connect with me on:<br>
 <ul>
   <li>📧 Email: vinayku8887@gmail.com </li>
