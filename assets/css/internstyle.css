@@ -162,7 +162,7 @@
 }
 .conclusion button{
     display: flex;
-    width: 200px;
+    width: auto;
     align-items: center;
     padding: 15px 30px;
     margin: 5px 40% 20px ;
