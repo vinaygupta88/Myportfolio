@@ -13,6 +13,6 @@
 Want to collaborate or discuss new opportunities? Feel free to connect with me on:<br>
 <ul>
   <li>📧 Email: vinayku8887@gmail.com </li>
-  <li>💼 LinkedIn:http://linkedin.com/in/vinay-kumar-566b31252 </li>
+  <li>💼 LinkedIn:https://www.linkedin.com/in/vinay-kumar88/ </li>
 </ul>
 
