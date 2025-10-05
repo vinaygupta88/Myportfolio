@@ -564,3 +564,54 @@ img {
     width: 450px;
   }
 }
+
+.internship-card {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.internship-card img {
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease;
+    filter: brightness(100%);
+}
+
+.internship-card:hover img,
+.internship-card:focus-within img {
+    filter: brightness(30%);
+    transform: scale(1.1);
+}
+
+.internship-card .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 2;
+}
+
+.internship-card:hover .overlay,
+.internship-card:focus-within .overlay {
+    opacity: 1;
+}
+
+.overlay-btn {
+    background-color: #2c87e9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.overlay-btn:hover {
+    background-color: #0056b3;
+}
