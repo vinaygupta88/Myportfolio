@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vinaygupta88.github.io/Myportfolio/sitemap.xml
