@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="google-site-verification" content="kq7yXtW3pOsGvTVR_39PLctpaGE2-l7OVH4xqipYH-k" />
-        <meta name="msvalidate.01" content="7A77C1A597E897B8052446C940975472" />        
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <title>Vinay Kumar | Machine Learning & Python Developer</title>
-        <link rel="icon" href="assets/img/logo.jpg"  type="image/x-icon">
-        <meta name="description" content="Portfolio of Vinay Kumar, an aspiring Machine Learning and Python developer. Explore projects on AI, data science, and web development.">
-        
-        <script type="application/ld+json">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="kq7yXtW3pOsGvTVR_39PLctpaGE2-l7OVH4xqipYH-k" />
+    <meta name="msvalidate.01" content="7A77C1A597E897B8052446C940975472" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Vinay Kumar | Machine Learning & Python Developer</title>
+    <link rel="icon" href="assets/img/logo.jpg" type="image/x-icon">
+    <meta name="description"
+        content="Portfolio of Vinay Kumar, an aspiring Machine Learning and Python developer. Explore projects on AI, data science, and web development.">
+
+    <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
                 "@type": "Person",
@@ -29,245 +31,352 @@
             }
 
         </script>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav__logo"><img src="assets/img/logo.jpg" alt="logo" style="border-radius: 50%;"
+                        width="60px"></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Vinay Kumar</span></h1>
+                <h3>Python Developer |<br> Machine Learning, Data Science & AI Enthusiast</h3>
+                <button class="btn btn-color-2" onclick="window.open('assets/cv.pdf')"> Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info</button>
+            </div>
+
+            <div class="home__social">
+                <a href="http://linkedin.com/in/vinay-kumar-566b31252" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/vinaygupta88" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="assets/img/profile.png"
+                            alt="Profile picture" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="Vinay Kumar">
+                </div>
+
                 <div>
-                    <a href="#home" class="nav__logo"><img src="assets/img/logo.jpg" alt="logo" style="border-radius: 50%;" width="60px"></a>
+                    <h2 class="about__subtitle">I am Vinay Kumar</h2>
+                    <p class="about__text" style="text-align: justify;"> I am a Python developer with a strong interest
+                        in Machine Learning, Data Science, and Artificial Intelligence. I have a solid foundation in
+                        programming through hands-on experience with C, Java, Python, and JavaScript, which has helped
+                        me understand core software development concepts. <br>
+                        I enjoy building practical projects and applying what I learn to real-world problems. My current
+                        focus is on Machine Learning, Django, and AI-based applications, where I am continuously
+                        improving my skills by working on projects and exploring new technologies.<br>
+                        I am particularly interested in developing intelligent systems that combine data and logic to
+                        solve meaningful problems. I am always open to learning from real-world experience and
+                        collaborating with other developers.<br>
+                        My goal is to grow as a software engineer and contribute to impactful, technology-driven
+                        solutions</p>
                 </div>
+            </div>
+        </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#project" class="nav__link">Experience</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Vinay Kumar</span></h1>
-                    <h2>Machine Learning & Python Developer</h2>
-                    <button class="btn btn-color-2" onclick="window.open('assets/cv.pdf')" > Download CV</button>
-                    <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info</button>
-                </div>
-
-                <div class="home__social">
-                    <a href="http://linkedin.com/in/vinay-kumar-566b31252" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://github.com/vinaygupta88" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/profile.png" alt="Profile picture"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="Vinay Kumar">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Vinay Kumar</h2>
-                        <p class="about__text" style="text-align: justify;"> I am eager to apply my growing knowledge and skills in real-world scenarios.
-                            With hands-on experience in programming languages like C, Java, Python, and JavaScript, I have developed a solid foundation in software development. <br>
-                            I'm currently learning Machine Learning, Software Development, and Web Technologies. 
-                            My main focus is on Python, Django, and AI-based applications. 
-                            I'm passionate about exploring new technologies and building practical projects to improve my skills.<br>
-                            I'm always eager to learn and take on new challenges. 
-                            I'm looking forward to collaborating with developers and learning from real-world experiences. Let’s build something amazing together!</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">"I am a passionate developer with expertise in Python, JavaScript, and web technologies like HTML & CSS. 
-                            Additionally, I have a keen interest in Machine Learning and AI, leveraging TensorFlow and Scikit-Learn to build intelligent systems. 
-                            Constantly learning and improving, I strive to develop efficient and scalable solutions."</p>
-                        <div class="skills-container">
-                            <div class="skill-box">
-                                <h3>Python</h3>
-                                <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">"I am a passionate developer with expertise in Python, JavaScript, and web
+                        technologies like HTML & CSS.
+                        Additionally, I have a keen interest in Machine Learning and AI, leveraging TensorFlow and
+                        scikit-learn to build intelligent systems.
+                        Constantly learning and improving, I strive to develop efficient and scalable solutions."</p>
+                    <div class="skills-container">
+                        <div class="skill-box">
+                            <h3>Python</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 80%;"></div>
                             </div>
-                            <div class="skill-box">
-                                <h3>JavaScript</h3>
-                                <div class="progress"><div class="progress-bar" style="width: 70%;"></div></div>
+                        </div>
+                        <div class="skill-box">
+                            <h3>JavaScript</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%;"></div>
                             </div>
-                            <div class="skill-box">
-                                <h3>HTML & CSS</h3>
-                                <div class="progress"><div class="progress-bar" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="skill-box">
+                            <h3>HTML & CSS</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%;"></div>
                             </div>
-                            <div class="skill-box">
-                                <h3>ML</h3>
-                                <div class="progress"><div class="progress-bar" style="width: 50%;"></div></div>
+                        </div>
+                        <div class="skill-box">
+                            <h3>Machine Learning</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 50%;"></div>
                             </div>
-                            <div class="skill-box">
-                                <h3>MySQL</h3>
-                                <div class="progress"><div class="progress-bar" style="width: 60%;"></div></div>
+                        </div>
+                        <div class="skill-box">
+                            <h3>MySQL</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 60%;"></div>
                             </div>
-                            <div class="skill-box">
-                                <h3>Git & GitHub</h3>
-                                <div class="progress"><div class="progress-bar" style="width: 65%;"></div></div>
+                        </div>
+                        <div class="skill-box">
+                            <h3>Git & GitHub</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 65%;"></div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div>              
-                        <a href="#skills" class="project__img">
-                            <img src="assets/img/project3.jpg"  alt="skills">
+                </div>
+
+                <div>
+                    <a href="#skills" class="project__img">
+                        <img src="assets/img/project3.jpg" alt="skills">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="project section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="project__container bd-grid">
+                <a href="" class="project__img bck">
+                    <img src="assets/img/picc.jpg" style="height:auto; border-radius: 50%; margin: 15px auto;"
+                        alt="vinay">
+                    <div class="name">Vinay Kumar</div>
+                    <div class="title">Software Developer</div>
+                    <p class="social-icons"><i class='bx bxl-linkedin '></i>
+                        <i class='bx bxl-twitter'></i>
+                    </p>
+                </a>
+                <a href="ursc.html" class="project__img bck">
+                    <img src="assets/img/isrointer.png" alt="Internship">
+                    <h2 class="txt"><i>Project Intern at ISRO</i></h2>
+                </a>
+                <a href="intern.html" class="project__img bck">
+                    <img src="assets/img/intern.jpg" alt="Internship">
+                    <h2 class="txt"><i>Industrial Trainee, Softpro</i></h2>
+                </a>
+            </div>
+        </section>
+
+        <!--===== Project =====-->
+        <section class="project section" id="project">
+            <h2 class="section-title">Projects</h2>
+            <div class="project__container bd-grid">
+                <div class="project__img bck">
+                    <img src="assets/img/SOC.png" alt="Vinay Kumar Machine Learning Project on Battery SOC Estimation">
+                    <h2 class="txt">Battery SOC Estimation</h2>
+
+                    <div class="project-btns">
+                        <a href="https://battery-soc-estimation.onrender.com/" target="_blank"
+                            class="project-btn live-btn">
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/vinaygupta88/battery-soc-estimation" target="_blank"
+                            class="project-btn github-btn">
+                            GitHub
                         </a>
                     </div>
                 </div>
-            </section>
+                <div class="project__img bck">
+                    <img src="assets/img/emp.png"
+                        alt="Vinay Kumar Machine Learning Project on Employee performance prediction">
+                    <h2 class="txt">Employee Performance</h2>
 
-            <!--===== Project =====-->
-            <section class="project section" id="project">
-                <h2 class="section-title">Experience  &  Projects</h2>
+                    <div class="project-btns">
+                        <a href="https://employee-performance-predictor-kvl6.onrender.com/" target="_blank"
+                            class="project-btn live-btn">
+                            Live Demo
+                        </a>
 
-                <div class="project__container bd-grid">
-                    <a href="" class="project__img bck">
-                        <img src="assets/img/picc.jpg" style="height:auto; border-radius: 50%; margin: 5px auto;" alt="vinay">
-                        <div class="name">Vinay Kumar</div>
-                        <div class="title">Software Developer</div>
-                        <p class="social-icons"><i class='bx bxl-linkedin ' ></i>
-                        <i class='bx bxl-instagram' ></i>
-                        <i class='bx bxl-twitter' ></i></p>
-                    </a>
-                    <div class="project__img bck internship-card">
-                        <img src="assets/img/intern.jpg" alt="Internship">
-                        <div class="overlay">
-                            <a href="intern.html" class="overlay-btn">Softpro India</a>
-                            <a href="ursc.html" class="overlay-btn">URSC-ISRO</a>
-                        </div>
-                        <a href=""><h2 class="txt">Internship</h2></a>
-                    </div>
-
-                    <a href="https://employee-performance-predictor-kvl6.onrender.com" class="project__img bck">
-                        <img src="assets/img/emp.png" alt="Vinay Kumar Machine Learning Project on Employee performance prediction">
-                        <h2 class="txt">Emp. Perf. Predictor</h2>
-                    </a>
-                    <a href="https://battery-soc-estimation.onrender.com/" class="project__img bck">
-                        <img src="assets/img/SOC.png" alt="Vinay Kumar Machine Learning Project on Battery SOC Estimation">
-                        <h2 class="txt">Battery SOC Estimation</h2>
-                    </a>
-                    <a href="" class="project__img bck">
-                        <img src="assets/img/anemia-sense.png" alt="Anemia project | Vinay-kumar">
-                        <h2 class="txt">Anemia-Sense</h2>
-                    </a>
-                    <a href="" class="project__img bck">
-                        <img src="assets/img/event.png" alt="">
-                        <h2 class="txt">Event Management </h2>
-                    </a>
-                    <a href="" class="project__img bck">
-                        <img src="assets/img/weather.jpg" alt="Weather project | Vinay-kumar">
-                        <h2 class="txt">Weather Prediction</h2>
-                    </a>
-                    <a href="" class="project__img bck">
-                        <img src="assets/img/house.jpg" alt="Vinay Kumar Machine Learning Project on House Prices">
-                        <h2 class="txt">House price prediction</h2>
-                    </a>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-                <div class="skills__container bd-grid">
-                    <!-- Left Side: Contact Info (All in One Box) -->
-                    <div class="skills-container ">
-                        <div class="contact-info-container txt">
-                            <i class='material-icons' style="font-size: 40px;">mail</i>
-                            <a href="mailto:vinayku8887@gmail.com" class="txt">Gmail</a>
-                        </div>
-                        <div class="contact-info-container txt">
-                            <i class='bx bxl-linkedin' style="font-size: 40px;"></i>
-                            <a href="http://linkedin.com/in/vinay-kumar88" class="txt">LinkedIn</a>
-                        </div>
-                        <div class="contact-info-container txt">
-                            <i class='bx bxl-instagram' style="font-size: 40px;"></i>
-                            <a href="#" class="txt">Instagram</a>
-                        </div>
-                        <div class="contact-info-container txt">
-                            <i class='bx bxl-twitter' style="font-size: 40px;"></i>
-                            <a href="https://x.com/Vinayku8887" class="txt">Twitter</a>
-                        </div>
-                    </div>
-            
-                    <!-- Right Side: Feedback Form (Unchanged) -->
-                    <div class="contact-info-container ">
-                        <form action="https://api.web3forms.com/submit" method="POST" class="contact__form" onsubmit="return validateGmail()">
-                            <h2 style="text-align: center;">Feedback</h2><hr>
-                            <input type="hidden" name="access_key" value="e660f081-b2bc-4c0f-9021-f69362367823">
-                            <div class="form-group">
-                                <label for="name">Name:</label>
-                                <input type="text" id="name" name="name" placeholder="Name" class="contact__input" required aria-describedby="name-error">
-                                <span id="name-error" class="error" style="display: none; color: red;">Please enter your name.</span>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="email" placeholder="Email" class="contact__input" required aria-describedby="email-error">
-                                <span id="email-error" class="error" style="display: none; color: red;">Please enter a valid Gmail address.</span>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Your Message:</label>
-                                <textarea id="message" name="message" placeholder="Your message" rows="2" class="contact__input" required aria-describedby="message-error"></textarea>
-                                <span id="message-error" class="error" style="display: none; color: red;">Please enter a message.</span>
-                            </div>
-                            <button type="submit">Submit</button>
-                        </form>
+                        <a href="https://github.com/vinaygupta88/Employee_Performance_Prediction" target="_blank"
+                            class="project-btn github-btn">
+                            GitHub
+                        </a>
                     </div>
                 </div>
-            </section>
-        </main>
+                <div class="project__img bck">
+                    <img src="assets/img/anemia-sense.png" alt="Vinay Kumar Machine Learning Project on Anemia Sense">
+                    <h2 class="txt">Anemia Sense</h2>
 
-        <!--===== FOOTER =====-->
-        <footer class="footer ">
-            <p class="footer__title"><span class="txt">Vinay Kumar</span></p>
-            <div class="footer__social">
-                <a href="http://linkedin.com/in/vinay-kumar88" class="footer__icon txt"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#" class="footer__icon txt"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://x.com/Vinayku8887" class="footer__icon txt"><i class='bx bxl-twitter' ></i></a>
+                    <div class="project-btns">
+                        <a href="" target="_blank" class="project-btn live-btn">
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/vinaygupta88/Anemia-Sense" target="_blank"
+                            class="project-btn github-btn">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project__img bck">
+                    <img src="assets/img/weather.jpg" alt="Vinay Kumar Machine Learning Project on Weather prediction">
+                    <h2 class="txt">Weather Prediction</h2>
+
+                    <div class="project-btns">
+                        <a href="" target="_blank" class="project-btn live-btn">
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/vinaygupta88/Anemia-Sense" target="_blank"
+                            class="project-btn github-btn">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project__img bck">
+                    <img src="assets/img/house.jpg"
+                        alt="Vinay Kumar Machine Learning Project on House price prediction">
+                    <h2 class="txt">House Price Prediction</h2>
+
+                    <div class="project-btns">
+                        <a href="" target="_blank" class="project-btn live-btn">
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/vinaygupta88/Anemia-Sense" target="_blank"
+                            class="project-btn github-btn">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project__img bck">
+                    <img src="assets/img/liveWeather.png"
+                        alt="Vinay Kumar Web Development Project on Live Weather Tracker">
+                    <h2 class="txt">Live Weather Tracker</h2>
+
+                    <div class="project-btns">
+                        <a href="https://vinaygupta88.github.io/Weather-App/" target="_blank" class="project-btn live-btn">
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/vinaygupta88/Weather-App" target="_blank"
+                            class="project-btn github-btn">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
             </div>
-            <p class="footer__copy"><span class="txt">&copy;2025 Vinay-kumar. All rigths reserved</span></p>
-        </footer>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="skills__container bd-grid">
+                <!-- Left Side: Contact Info (All in One Box) -->
+                <div class="skills-container ">
+                    <div class="contact-info-container txt">
+                        <i class='material-icons' style="font-size: 40px;">mail</i>
+                        <a href="mailto:vinayku8887@gmail.com" class="txt">Gmail</a>
+                    </div>
+                    <div class="contact-info-container txt">
+                        <i class='bx bxl-linkedin' style="font-size: 40px;"></i>
+                        <a href="http://linkedin.com/in/vinay-kumar88" class="txt">LinkedIn</a>
+                    </div>
+                    <div class="contact-info-container txt">
+                        <i class='bx bxl-twitter' style="font-size: 40px;"></i>
+                        <a href="https://x.com/Vinayku8887" class="txt">Twitter</a>
+                    </div>
+                </div>
+
+                <!-- Right Side: Feedback Form (Unchanged) -->
+                <div class="contact-info-container ">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact__form"
+                        onsubmit="return validateGmail()">
+                        <h2 style="text-align: center;">Feedback</h2>
+                        <hr>
+                        <input type="hidden" name="access_key" value="e660f081-b2bc-4c0f-9021-f69362367823">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Name" class="contact__input" required
+                                aria-describedby="name-error">
+                            <span id="name-error" class="error" style="display: none; color: red;">Please enter your
+                                name.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Email" class="contact__input"
+                                required aria-describedby="email-error">
+                            <span id="email-error" class="error" style="display: none; color: red;">Please enter a valid
+                                Gmail address.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message:</label>
+                            <textarea id="message" name="message" placeholder="Your message" rows="2"
+                                class="contact__input" required aria-describedby="message-error"></textarea>
+                            <span id="message-error" class="error" style="display: none; color: red;">Please enter a
+                                message.</span>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer ">
+        <p class="footer__title"><span class="txt">Vinay Kumar</span></p>
+        <div class="footer__social">
+            <a href="http://linkedin.com/in/vinay-kumar88" class="footer__icon txt"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://x.com/Vinayku8887" class="footer__icon txt"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy"><span class="txt">&copy;2025 - 2026 Vinay Kumar. All rights reserved.</span></p>
+    </footer>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
